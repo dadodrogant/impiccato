@@ -1,0 +1,121 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: cursive;
+    }
+    body {
+        background: linear-gradient(135deg,#7f7fff,#a1ebff);
+        height: 100vh;
+        position: relative;    
+    }
+    .container{
+        font-size: 16px;
+        background-color: #ffffff;
+        width: 50vw;
+        max-width: 38em;
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 2em;
+        border-radius: 0.6em;
+        box-shadow: 0 1.3em 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .letter-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.6em;
+        
+    }
+    .letter-container button{
+        height: 2.4em;
+        width: 2.4em;
+        border-radius: 0.3em;
+        background-color: #ffffff;
+        cursor: pointer;
+        border: 2px solid grey;
+    }
+    #user-input-section{
+        display: flex;
+        justify-content: center;
+        font-size: 1.8em;
+        margin: 2em 0 0 0;
+    }
+    #new-game{
+        font-weight: bolder;
+        font-size: larger;
+        color: white;
+        border-radius: 5px;
+        background-color: black;    
+        position: absolute;
+        width: 10%;
+        height: 10vh;
+        bottom:40%;   
+        right: 5%;
+        transform: translate(-20%, -50%);
+    }
+    #imgcontainer{
+        border: 5px solid rgb(92, 92, 255);
+        width: 15em;
+        height: 8em;
+        border-radius: 3px;
+        
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .letters{
+        width: 1.5em;
+        height: 1.5em;
+        font-size: larger;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    #windiv{
+        position: absolute;
+        
+        border-radius: 5px;
+        width: 20vw;
+        height: 40vh;
+        
+        top: 50%;
+        left: 15%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: white;       
+    }
+    .letters:hover{
+        background-color: rgba(161, 161, 161, 0.37);
+    }
+    .letters:active{
+        transform: scale(1.06);
+    }
+    #tabcontainer{
+        font-size: 60px;
+    }
+    .img0{
+        background-image: url(img/impiccato0.png);        
+    }
+    .img1{
+        background-image: url(img/impiccato1.png);        
+    }
+    .img2{
+        background-image: url(img/impiccato2.png);
+    }
+    .img3{
+        background-image: url(img/impiccato3.png);
+    }
+    .img4{
+        background-image: url(img/impiccato4.png);
+    }
